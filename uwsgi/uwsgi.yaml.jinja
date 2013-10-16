@@ -1,0 +1,10 @@
+uwsgi:
+  die-on-term: True
+
+  uid: uwsgi
+  gid: www-data
+
+  emperor: {{ pillar['document_root'] }}/*.yaml
+  emperor-tyrant: True
+  cap: setgid,setuid
+  thunder-lock: True
