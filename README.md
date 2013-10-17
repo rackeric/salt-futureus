@@ -1,8 +1,3 @@
-Salt Formula - Nginx with uWSGI
-===============================
-
-- Tested on Ubuntu 12.04 LTS
-
-Installs:
-- nginx
-- uWSGI
+Salt-nginx-uwsgi
+================
+Salt formula to deploy Nginx with uWSGI.

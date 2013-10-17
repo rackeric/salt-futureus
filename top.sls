@@ -1,9 +1,9 @@
 base:
   '*':
-    - python.python-software-properties
-    - python.python-pip
-    - libcap-dev
-    - python.python-dev
+    - upgrade
     - nginx
     - uwsgi
-    - uwsgitop
+    - directories
+    - nginx_sites
+    - uwsgi_sites
+    - python_apps
