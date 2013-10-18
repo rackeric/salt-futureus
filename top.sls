@@ -3,6 +3,8 @@ base:
     - match: grain
     - upgrade
     - nginx
+    - nginx_sites
+    - directories
 
   'roles:database':
     - match: grain
@@ -14,8 +16,7 @@ base:
     - upgrade
     - redis
     - solr
-    #- python NEEDED
-    #- memcach client NEEDED
+    - python27
 
   'roles:cache':
     - match: grain
@@ -25,9 +26,9 @@ base:
   'roles:application':
     - match: grain
     - upgrade
-    #- python NEEDED
-    #- memcache client NEEDED
-    #- apache NO LONGER WANTED, BUT WHAT TO DO?
+    - python27
+    - uwsgi
+    - uwsgi_sites
 
   'roles:all':
     - match: grain
