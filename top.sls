@@ -1,5 +1,4 @@
 base:
-  '*':
   'roles:webserver':
     - match: grain
     - upgrade
