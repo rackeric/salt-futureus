@@ -6,7 +6,7 @@
     - makedirs: True
     - recurse:
       - user
-      - groups
+      - group
       - mode
 /srv/www/test.empulsegroup.com/application:
   file.directory:
@@ -16,7 +16,7 @@
     - makedirs: True
     - recurse:
       - user
-      - groups
+      - group
       - mode
 /srv/www/test.empulsegroup.com/logs:
   file.directory:
@@ -26,5 +26,5 @@
     - makedirs: True
     - recurse:
       - user
-      - groups
+      - group
       - mode
