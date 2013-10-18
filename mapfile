@@ -1,0 +1,49 @@
+raring_4:
+    - web1:
+        minion:
+            grains:
+                role: webserver
+    - web2:
+        minion:
+            grains:
+                role: webserver
+raring_8:
+    - backend1:
+        minion:
+            grains:
+                role: backend
+    - backend2:
+        minion:
+            grains:
+                role: backend
+    - application1:
+        minion:
+            grains:
+                role: application
+    - application2:
+        minion:
+            grains:
+                role: application
+    - application3:
+        minion:
+            grains:
+                role: application
+    - application4:
+        minion:
+            grains:
+                role: application
+raring_15:
+    - database1:
+        minion:
+            grains:
+                role: database
+    - database2:
+        minion:
+            grains:
+                role: database
+raring_30:
+    - cache:
+        minion:
+            grains:
+                role: cache
+

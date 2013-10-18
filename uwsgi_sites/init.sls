@@ -1,6 +1,6 @@
 /etc/uwsgi/apps-available/test.empulsegroup.com.xml:
   file.managed:
-    - source: salt://uwsgi_sites/test.empulsegroup.com.xml
+    - source: salt://config_files/test.empulsegroup.com.xml
     - user: root
     - group: root
     - mode: '0655'
