@@ -1,36 +1,36 @@
 base:
-  'roles:webserver':
+  'role:webserver':
     - match: grain
     - upgrade
     - nginx
     - nginx_sites
     - directories
 
-  'roles:database':
+  'role:database':
     - match: grain
     - upgrade
     - mysql
 
-  'roles:backend':
+  'role:backend':
     - match: grain
     - upgrade
     - redis
     - solr
     - python27
 
-  'roles:cache':
+  'role:cache':
     - match: grain
     - upgrade
     - memcached
 
-  'roles:application':
+  'role:application':
     - match: grain
     - upgrade
     - python27
     - uwsgi
     - uwsgi_sites
 
-  'roles:all':
+  'role:all':
     - match: grain
     - upgrade
     - nginx

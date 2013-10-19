@@ -1,9 +1,9 @@
 import os
 import sys
 
-sys.path.append('/srv/www/test.empulsegroup.com/application')
+sys.path.append('/srv/www/domain.com/application')
 
-os.environ['PYTHON_EGG_CACHE'] = '/srv/www/test.empulsegroup.com/.python-egg'
+os.environ['PYTHON_EGG_CACHE'] = '/srv/www/domain.com/.python-egg'
 
 def application(environ, start_response):
     status = '200 OK'
