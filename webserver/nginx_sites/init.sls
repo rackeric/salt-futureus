@@ -1,6 +1,6 @@
 #  /etc/nginx/sites-available/domain.com:
 #    file.managed:
-#      - source: salt://config_files/domain.com
+#      - source: salt://webserver/config_files/domain.com
 #      - user: root
 #      - group: root
 #      - mode: '0655'

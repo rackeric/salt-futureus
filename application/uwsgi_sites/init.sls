@@ -1,6 +1,6 @@
 /etc/uwsgi/apps-available/domain.com.xml:
   file.managed:
-    - source: salt://config_files/domain.com.xml
+    - source: salt://application/config_files/domain.com.xml
     - user: root
     - group: root
     - mode: '0655'

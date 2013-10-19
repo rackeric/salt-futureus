@@ -4,4 +4,4 @@ mysql-server:
 /etc/mysql/my.cnf:
   file:
     - managed
-    - source: salt://config_files/my.cnf
+    - source: salt://database/config_files/my.cnf

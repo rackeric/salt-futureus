@@ -4,4 +4,4 @@ memcached:
 /etc/memcached.conf:
   file:
     - managed
-    - source: salt://config_files/memcached.conf
+    - source: salt://application/config_files/memcached.conf
